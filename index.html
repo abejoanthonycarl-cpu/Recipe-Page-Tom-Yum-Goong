@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Yum Goong ต้มยำกุ้ง</title>
+    <style>
+        /* All page */
+        body {
+            font-family: 'Arial', sans-serif; 
+            background-color: #f4f4f4; /* Light gray background */
+            color: #333; /* Dark gray text color */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Container recipe */
+        .container {
+            display: flex;
+            justify-content: center; 
+        }
+
+        /* Recipe Card/Box */
+        .recipe {
+            background-color: #ffffff; 
+            padding: 30px;
+            max-width: 700px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        /* Heading (H1, H2, H3) */
+        h1, h2, h3 {
+            color: #77bffe; 
+        }
+
+        /* Description paragraph */
+        .description p {
+            font-style: italic;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        /* Fix Image */
+        .img img {
+            width: 100%; 
+            height: auto;
+            border-radius: 10px; 
+            margin-bottom: 20px;
+        }
+
+        /* Lists (Ingredients/Instructions/Time) */
+        .Ingredients ul,
+        .preparation-time ul,
+        .Instructions ol {
+            padding-left: 20px;
+            line-height: 1.6; 
+        }
+
+        /* Bold instructions */
+        .Instructions ol li strong {
+            color: #2a2a2a;
+        }
+
+        /* Styling Nutrition Table */
+        .Nutrition h2 {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .nutrition-table {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between; 
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Border table */
+        .row:last-child {
+            border-bottom: none;
+        }
+
+        .row span {
+            font-weight: 400; /* Label */
+        }
+
+        .row strong {
+            color: #2a2a2a; /* Value */
+        }
+
+        /* HR HTML */
+        hr {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+      <div class="recipe">
+        
+        <div class="img">
+          <img src="tom-yum-goong.jpg" alt="Tom Yum Goong, Thai Spicy Shrimp Soup">
+        </div>
+
+        <div class="heading">
+          <h1>Tom Yum Goong ต้มยำกุ้ง</h1>
+        </div>
+
+        <div class="description">
+          <p>Tom yum soup with shrimp is the most popular kind of tom yum in Thailand. Including shrimp heads adds extra flavour to the soup.</p>
+        </div>
+
+        <div class="preparation-time">
+          <h3>Preparation time</h3>
+          <ul>
+            <li><strong>Preparation</strong>: 5 minutes</li>
+            <li><strong>Cooking</strong>: 20-30 minutes</li>
+          </ul>
+        </div>
+        
+        <div class="Ingredients">
+          <h2>Ingredients</h2>
+          <ul>
+            <li>Medium to large shrimp (preferably head-on, shell-on)</li>
+            <li>Lemongrass</li>
+            <li>Galangal</li>
+            <li>Kaffir lime leaves</li>
+            <li>Fish sauce</li>
+            <li>Thai chilies (like Bird’s Eye Chilli)</li>
+            <li>Mushrooms</li>
+            <li>Tomatoes (Roma tomatoes are often used)</li>
+            <li>Sweet white onions</li>
+            <li>Lime juice</li>
+            <li>Sugar</li>
+          </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="Instructions">
+          <h2>Instructions</h2>
+          <ol>
+            <li><strong>Boil water or chicken broth</strong>:in a pot and add lemongrass, galangal, and kaffir lime leaves. Let it simmer for 5-10 minutes to infuse the flavors..</li>
+            <li><strong>Add mushrooms, sliced onion, tomatoes, and chopped galangal</strong>:to the broth and cook for 5-7 minutes until the vegetables soften.</li>
+            <li><strong>Add shrimp and cook until they turn pink and opaque</strong>:about 3-5 minutes.</li>
+            <li><strong>Stir in fish sauce, lime juice, and sugar</strong>: (if using) to taste and adjust the seasoning.</li>
+            <li><strong>Remove from heat</strong>: add fresh coriander leaves on top before serving.For a creamier version, you can add evaporated milk or coconut milk at the last stage. Garnish with fresh cilantro leaves and serve hot. Enjoy your Tom Yum Goong, a flavorful and aromatic Thai classic</li>
+            <li><strong>Enjoy</strong>: Serve hot, with additional salt and pepper if needed.</li>
+          </ol>
+        </div>
+        
+        <hr>
+        
+        <div class="Nutrition">
+          <h2>Nutrition</h2>
+          <p>The table below shows nutritional values per serving without the additional fillings.</p>
+          
+          <div class="nutrition-table">
+            <div class="row">
+              <span>Calories</span>
+              <strong>277kcal</strong>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+              <span>Carbs</span>
+              <strong>8g</strong>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+              <span>Protein</span>
+              <strong>20g</strong>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+              <span>Fat</span>
+              <strong>22g</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer> 
+      <p> &copySAKORN 2025 </p>
+    </footer>
+</body>
+</html>
